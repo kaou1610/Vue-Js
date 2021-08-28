@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <img src="./assets/image/head.png" alt="image">
+      <HelloWorld msg="Order Summary"/>
+    </div>
   </div>
 </template>
 
@@ -23,6 +25,22 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: rgb(219, 209, 245);
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+.container {
+  width: 36%;
+  margin: 70px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  
+}
+img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 </style>
